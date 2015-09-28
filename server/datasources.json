@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "fileStorageDS": {
+    "name": "fileStorageDS",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem"
+  }
+}

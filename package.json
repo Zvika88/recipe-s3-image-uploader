@@ -1,0 +1,44 @@
+{
+  "name": "recipe-s3-image-uploader",
+  "description": "This IBM StrongLoop recipe answers the often asked question of: Using LoopBack, how can I convert or resize an image to a thumbnail before uploading to Amazon S3?",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "recipe"
+  ],
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.2.4",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "errorhandler": "^1.1.1",
+    "loopback": "^2.14.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-storage": "^1.5.1",
+    "loopback-datasource-juggler": "^2.19.0",
+    "quickthumb": "0.0.11",
+    "serve-favicon": "^2.0.1",
+    "winston": "^1.0.2"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dashby3000/recipe-s3-image-uploader.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Dennis W. Ashby",
+    "email": "dennis@strongloop.com",
+    "url": "https://www.linkedin.com/in/dennisashby"
+  }
+}
