@@ -47,6 +47,9 @@ These values can be set in the projects `server/config.local.js` file or as `env
 
         $ curl -i -X POST -H "Content-Type:  multipart/form-data"  -F "fileUpload=@./sample/sample.jpg" http://localhost:3000/api/CloudStoreImages/recipe/upload
 
+- **Step 5:** Observe that the original image, along with three other resized images were uploaded to your S3 bucket.The images were uploaded into a directory matching the name of the Container you created in **Step 2**.  
+The number of resized images, and unique suffixes, are defined in the `server/config.json` file.  Check for the `cloudStoreImages` object.
+
 ##### Version
 1.0.0
 
