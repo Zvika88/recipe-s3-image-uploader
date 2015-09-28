@@ -40,5 +40,8 @@
     "name": "Dennis W. Ashby",
     "email": "dennis@strongloop.com",
     "url": "https://www.linkedin.com/in/dennisashby"
-  }
+  },
+  "files": [
+    "./upload"
+  ]
 }
