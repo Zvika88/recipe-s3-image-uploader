@@ -10,6 +10,7 @@ This recipe demonstrates the following:
 - Usage of the LoopBack [configuration](https://docs.strongloop.com/display/public/LB/Environment-specific+configuration) files;
 - Usage of the [Winston](https://github.com/winstonjs/winston) logging module;
 - Customization of the LoopBack [BootScripts](https://docs.strongloop.com/display/public/LB/Defining+boot+scripts)
+- Customization of the LoopBack [Explorer](https://docs.strongloop.com/display/public/LB/Use+API+Explorer)
 
 ## Installing the Recipe
 Clone this recipe project:
