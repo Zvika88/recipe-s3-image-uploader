@@ -25,14 +25,10 @@ Inside your LoopBack project, install all the NPM dependencies:
 By default, this recipe assumes that the user has an [Amazon S3](https://aws.amazon.com/s3/) account.  To run the example you will need to provide your `s3 bucket name`, `s3 region`, `s3 access key` and `s3 secret access key`.
 
 These values can be set in the projects `server/config.local.js` file or as `environment varables`:
-- AWS_S3_BUCKET
--       $ export AWS_S3_BUCKET = YourS3BucketName
-- AWS_S3_REGION 
--       $ export AWS_S3_REGION = YourS3RegionName
-- AWS_S3_ACCESS_KEY_ID
--       $ export AWS_S3_ACCESS_KEY_ID = YourS3AccessKeyID
-- AWS_S3_SECRET_ACCESS_KEY
--       $ export AWS_S3_SECRET_ACCESS_KEY = YourS3SecretAccessKey
+    $ export AWS_S3_BUCKET = YourS3BucketName
+    $ export AWS_S3_REGION = YourS3RegionName
+    $ export AWS_S3_ACCESS_KEY_ID = YourS3AccessKeyID
+    $ export AWS_S3_SECRET_ACCESS_KEY = YourS3SecretAccessKey
 
 ## Running the Recipe
 
